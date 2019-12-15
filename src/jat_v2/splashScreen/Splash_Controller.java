@@ -1,7 +1,7 @@
-package ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2.splashScreen;
+package jat_v2.splashScreen;
 
-import ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2.JavaFX_App_Template;
-import ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2.abstractClasses.Controller;
+import jat_v2.JavaFX_App_Template;
+import jat_v2.abstractClasses.Controller;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.concurrent.Worker;

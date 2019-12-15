@@ -1,4 +1,4 @@
-package ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2.abstractClasses;
+package jat_v2.abstractClasses;
 
 /**
  * Copyright 2015, FHNW, Prof. Dr. Brad Richards. All rights reserved. This code

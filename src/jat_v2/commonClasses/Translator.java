@@ -1,11 +1,11 @@
-package ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2.commonClasses;
+package jat_v2.commonClasses;
 
 import java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 import java.util.logging.Logger;
 
-import ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2.ServiceLocator;
+import jat_v2.ServiceLocator;
 
 public class Translator {
     private ServiceLocator sl = ServiceLocator.getServiceLocator();

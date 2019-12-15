@@ -1,11 +1,11 @@
-package ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2;
+package jat_v2;
 
-import ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2.appClasses.App_Controller;
-import ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2.appClasses.App_Model;
-import ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2.appClasses.App_View;
-import ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2.splashScreen.Splash_Controller;
-import ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2.splashScreen.Splash_Model;
-import ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2.splashScreen.Splash_View;
+import jat_v2.appClasses.App_Controller;
+import jat_v2.appClasses.App_Model;
+import jat_v2.appClasses.App_View;
+import splashScreen.Splash_Controller;
+import jat_v2.splashScreen.Splash_Model;
+import jat_v2.splashScreen.Splash_View;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.stage.Stage;

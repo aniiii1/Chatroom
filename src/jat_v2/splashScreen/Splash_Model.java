@@ -1,14 +1,14 @@
-package ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2.splashScreen;
+package jat_v2.splashScreen;
 
 import java.util.logging.FileHandler;
 import java.util.logging.Handler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2.ServiceLocator;
-import ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2.abstractClasses.Model;
-import ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2.commonClasses.Configuration;
-import ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2.commonClasses.Translator;
+import jat_v2.ServiceLocator;
+import jat_v2.abstractClasses.Model;
+import commonClasses.Configuration;
+import jat_v2.commonClasses.Translator;
 import javafx.concurrent.Task;
 
 /**

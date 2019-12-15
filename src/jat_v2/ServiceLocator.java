@@ -1,10 +1,10 @@
-package ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2;
+package jat_v2;
 
 import java.util.Locale;
 import java.util.logging.Logger;
 
-import ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2.commonClasses.Configuration;
-import ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2.commonClasses.Translator;
+import jat_v2.commonClasses.Configuration;
+import jat_v2.commonClasses.Translator;
 
 /**
  * Copyright 2015, FHNW, Prof. Dr. Brad Richards. All rights reserved. This code

@@ -1,4 +1,4 @@
-package ch.fhnw.richards.topic10_JavaAppTemplate.logging;
+package logging;
 
 import java.io.IOException;
 import java.util.logging.FileHandler;

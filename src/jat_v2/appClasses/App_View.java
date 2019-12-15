@@ -1,11 +1,11 @@
-package ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2.appClasses;
+package jat_v2.appClasses;
 
 import java.util.Locale;
 import java.util.logging.Logger;
 
-import ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2.ServiceLocator;
-import ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2.abstractClasses.View;
-import ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2.commonClasses.Translator;
+import jat_v2.ServiceLocator;
+import jat_v2.abstractClasses.View;
+import jat_v2.commonClasses.Translator;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;

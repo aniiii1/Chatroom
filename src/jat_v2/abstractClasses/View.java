@@ -1,4 +1,4 @@
-package ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2.abstractClasses;
+package jat_v2.abstractClasses;
 
 import javafx.scene.Scene;
 import javafx.stage.Stage;

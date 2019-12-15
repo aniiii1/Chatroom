@@ -1,7 +1,7 @@
-package ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2.appClasses;
+package jat_v2.appClasses;
 
-import ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2.ServiceLocator;
-import ch.fhnw.richards.topic10_JavaAppTemplate.jat_v2.abstractClasses.Controller;
+import jat_v2.ServiceLocator;
+import jat_v2.abstractClasses.Controller;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
