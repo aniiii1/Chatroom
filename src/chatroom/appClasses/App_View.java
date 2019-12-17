@@ -13,7 +13,10 @@ import javafx.scene.control.Label;
 import javafx.scene.control.Menu;
 import javafx.scene.control.MenuBar;
 import javafx.scene.control.MenuItem;
+import javafx.scene.control.SplitPane;
+import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 /**
@@ -30,6 +33,8 @@ public class App_View extends View<App_Model> {
     
     Label lblNumber;
     Button btnClick;
+    VBox leftControl = new VBox();
+    VBox rightControl = new VBox();
 
 	public App_View(Stage stage, App_Model model) {
         super(stage, model);
@@ -59,18 +64,27 @@ public class App_View extends View<App_Model> {
         menuHelp = new Menu();
 	    menuBar.getMenus().addAll(menuFile, menuHelp);
 		
-		GridPane root = new GridPane();
-		root.add(menuBar, 0, 0);
+	    BorderPane root = new BorderPane();
+	    root.setTop(menuBar);
+
 		
 		lblNumber = new Label();
         lblNumber.setText(Integer.toString(model.getValue()));
         lblNumber.setMinWidth(200);
         lblNumber.setAlignment(Pos.BASELINE_CENTER);
-        root.add(lblNumber, 0, 1);
+//        root.add(lblNumber, 0, 1);
         
         btnClick = new Button();
         btnClick.setMinWidth(200);
-        root.add(btnClick, 0, 2);
+//        root.add(btnClick, 0, 2);
+        
+        SplitPane splitPane = new SplitPane();
+        root.setCenter(splitPane);
+        splitPane.getItems().addAll(lblNumber,btnClick);
+        splitPane.setDividerPositions(0.9f, 0.18f);
+//        root.add(splitPane, 0,3);   
+//        root.getChildren().addAll(splitPane, menuBar);
+
         
         updateTexts();
 		
