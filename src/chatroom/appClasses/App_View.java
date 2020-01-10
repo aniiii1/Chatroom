@@ -33,8 +33,6 @@ public class App_View extends View<App_Model> {
     
     Label lblNumber;
     Button btnClick;
-    VBox leftControl = new VBox();
-    VBox rightControl = new VBox();
 
 	public App_View(Stage stage, App_Model model) {
         super(stage, model);
@@ -43,6 +41,8 @@ public class App_View extends View<App_Model> {
 
 	@Override
 	protected Scene create_GUI() {
+	    VBox leftControl = new VBox();
+	    VBox rightControl = new VBox();
 	    ServiceLocator sl = ServiceLocator.getServiceLocator();  
 	    Logger logger = sl.getLogger();
 	    
@@ -79,8 +79,12 @@ public class App_View extends View<App_Model> {
 //        root.add(btnClick, 0, 2);
         
         SplitPane splitPane = new SplitPane();
+        leftControl
+        .getChildren()
+        .add(lblNumber);
+        rightControl.getChildren().add(btnClick);
         root.setCenter(splitPane);
-        splitPane.getItems().addAll(lblNumber,btnClick);
+        splitPane.getItems().addAll(leftControl,rightControl);
         splitPane.setDividerPositions(0.9f, 0.18f);
 //        root.add(splitPane, 0,3);   
 //        root.getChildren().addAll(splitPane, menuBar);
